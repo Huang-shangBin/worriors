@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/warriors_favicon.ico" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/player.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/rocket.js"></script>
+    <script src="js/player.js"></script>
+    <title>仿金州勇士队官网</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="navbar">
+            <img src="images/gsw-logo.png" alt="" class="imgSize ml-5">
+            <a class="navbar-brand pr-5 pl-3" href="#">金州勇士队</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">新闻</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="player.html">球员</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="game.html">赛程</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">统计</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">图集</a>
+                    </li> -->
+                </ul>
+                <form class="form-inline my-2 my-lg-0 position-relative">
+                    <input class="form-control mr-sm-2 inputBar" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn my-2 my-sm-0 inputBar-btn" type="submit">My Warriors Account</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="container pt-4"></div>
+    <div class="container pt-5">
+        <div class="row bg-primary d-flex px-4 head" style="justify-content: space-between;align-items: center;">
+            <h2 class="news-title mb-0"><a href="javascript:;">2021-2022 阵容</a></h2>
+            <div class="btn-toggle d-flex">
+                <div class="info btn-bacolor">信息</div>
+                <div class="data">数据</div>
+            </div>
+        </div>
+        <div class="big-box">
+            <div class="interval-color shadow infobox">
+                <div class="row tablehead d-flex">
+                    <p>球员</p>
+                    <p>位置</p>
+                    <p>身高</p>
+                    <p>体重(公斤)</p>
+                    <p>球号</p>
+                    <p>经验</p>
+                    <p>大学</p>
+                    <p>国籍</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/scpic.webp">库里</p>
+                    <p>后卫</p>
+                    <p>1.88</p>
+                    <p>83.9</p>
+                    <p>30</p>
+                    <p>12</p>
+                    <p>Davidson</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/ktpic.webp">汤普森</p>
+                    <p>后卫</p>
+                    <p>1.98</p>
+                    <p>99.8</p>
+                    <p>11</p>
+                    <p>8</p>
+                    <p>Washington State</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/dgpic.webp">格林</p>
+                    <p>前锋</p>
+                    <p>1.98</p>
+                    <p>104.3</p>
+                    <p>23</p>
+                    <p>9</p>
+                    <p>Michigan State</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/jppic.webp">普尔</p>
+                    <p>后卫</p>
+                    <p>1.93</p>
+                    <p>88.0</p>
+                    <p>3</p>
+                    <p>2</p>
+                    <p>Michigan</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/awpic.webp">维金斯</p>
+                    <p>前锋</p>
+                    <p>2.03</p>
+                    <p>89.4</p>
+                    <p>22</p>
+                    <p>7</p>
+                    <p>Kansas</p>
+                    <p>加拿大</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/klpic.webp">鲁尼</p>
+                    <p>中锋</p>
+                    <p>2.06</p>
+                    <p>100.7</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>UCLA</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/appic.webp">波特</p>
+                    <p>前锋</p>
+                    <p>2.03</p>
+                    <p>89.8</p>
+                    <p>32</p>
+                    <p>8</p>
+                    <p>Georgetown</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/gp2pic.webp">佩顿二世</p>
+                    <p>后卫</p>
+                    <p>1.90</p>
+                    <p>88.5</p>
+                    <p>0</p>
+                    <p>5</p>
+                    <p>Oregon State</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/nbpic.webp">别利察</p>
+                    <p>前锋</p>
+                    <p>2.06</p>
+                    <p>106.1</p>
+                    <p>8</p>
+                    <p>6</p>
+                    <p>Fenerbahce</p>
+                    <p>塞尔维亚</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/aipic.webp">伊戈达拉</p>
+                    <p>前锋</p>
+                    <p>1.98</p>
+                    <p>97.5</p>
+                    <p>9</p>
+                    <p>17</p>
+                    <p>Arizona</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/jtapic.webp">安德森</p>
+                    <p>前锋</p>
+                    <p>1.98</p>
+                    <p>94.8</p>
+                    <p>95</p>
+                    <p>2</p>
+                    <p>Marquette</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/dlpic.webp">李</p>
+                    <p>后卫</p>
+                    <p>1.96</p>
+                    <p>95.3</p>
+                    <p>1</p>
+                    <p>4</p>
+                    <p>Drexel</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/jwpic.webp">怀斯曼</p>
+                    <p>中锋</p>
+                    <p>2.13</p>
+                    <p>108.9</p>
+                    <p>33</p>
+                    <p>1</p>
+                    <p>Memphis</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/jkpic.webp">库明加</p>
+                    <p>前锋</p>
+                    <p>2.01</p>
+                    <p>102.1</p>
+                    <p>00</p>
+                    <p>0</p>
+                    <p>GLI</p>
+                    <p>刚果</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/mmpic.webp">穆迪</p>
+                    <p>后卫</p>
+                    <p>1.96</p>
+                    <p>95.7</p>
+                    <p>4</p>
+                    <p>0</p>
+                    <p>Arkansas</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/kwpic.webp">威瑟斯彭</p>
+                    <p>后卫</p>
+                    <p>1.90</p>
+                    <p>93.0</p>
+                    <p>15</p>
+                    <p>2</p>
+                    <p>Mississippi State</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/jdpic.webp">道丁</p>
+                    <p>后卫</p>
+                    <p>1.90</p>
+                    <p>80.3</p>
+                    <p>21</p>
+                    <p>0</p>
+                    <p>Rhode Island</p>
+                    <p>美国</p>
+                </div>
+                <div class="row d-flex player-info-p">
+                    <p><img src="images/cqpic.webp">切奥萨</p>
+                    <p>后卫</p>
+                    <p>1.80</p>
+                    <p>79.4</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>Florida</p>
+                    <p>美国</p>
+                </div>
+            </div>
+            <div class="databox">
+                <div class="row tablehead d-flex">
+                    <p>球员</p>
+                    <p>出场</p>
+                    <p>得分</p>
+                    <p>篮板</p>
+                    <p>助攻</p>
+                    <p>抢断</p>
+                    <p>封盖</p>
+                    <p>先发</p>
+                    <p>时间</p>
+                    <p>命中率</p>
+                    <p>三分%</p>
+                    <p>罚球%</p>
+                    <p>前板</p>
+                    <p>后板</p>
+                    <p>失误</p>
+                    <p>犯规</p>
+                </div>
+                <div class="interval-color shadow">
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/scpic.webp"></p>
+                        <p>33</p>
+                        <p>27.7</p>
+                        <p>5.3</p>
+                        <p>6</p>
+                        <p>1.5</p>
+                        <p>0.5</p>
+                        <p>32</p>
+                        <p>34.8</p>
+                        <p>43.4</p>
+                        <p>40</p>
+                        <p>92</p>
+                        <p>0.6</p>
+                        <p>4.7</p>
+                        <p>3.4</p>
+                        <p>2</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/awpic.webp"></p>
+                        <p>31</p>
+                        <p>19</p>
+                        <p>4.5</p>
+                        <p>1.8</p>
+                        <p>0.9</p>
+                        <p>0.6</p>
+                        <p>30</p>
+                        <p>31.3</p>
+                        <p>48.7</p>
+                        <p>43.4</p>
+                        <p>69</p>
+                        <p>1.3</p>
+                        <p>3.2</p>
+                        <p>1.6</p>
+                        <p>1.8</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/jppic.webp"></p>
+                        <p>29</p>
+                        <p>17.6</p>
+                        <p>3.4</p>
+                        <p>3.4</p>
+                        <p>1</p>
+                        <p>0.2</p>
+                        <p>28</p>
+                        <p>30.3</p>
+                        <p>44.3</p>
+                        <p>33.9</p>
+                        <p>90.2</p>
+                        <p>0.3</p>
+                        <p>3.1</p>
+                        <p>2.5</p>
+                        <p>2.9</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/dgpic.webp"></p>
+                        <p>31</p>
+                        <p>8.4</p>
+                        <p>7.9</p>
+                        <p>7.5</p>
+                        <p>1.4</p>
+                        <p>1.2</p>
+                        <p>31</p>
+                        <p>30.6</p>
+                        <p>54.7</p>
+                        <p>28.9</p>
+                        <p>59.7</p>
+                        <p>1.2</p>
+                        <p>6.8</p>
+                        <p>3.2</p>
+                        <p>2.8</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/klpic.webp"></p>
+                        <p>35</p>
+                        <p>6</p>
+                        <p>6.3</p>
+                        <p>1.5</p>
+                        <p>0.5</p>
+                        <p>0.8</p>
+                        <p>34</p>
+                        <p>19.5</p>
+                        <p>54.7</p>
+                        <p>0</p>
+                        <p>60</p>
+                        <p>2.3</p>
+                        <p>4</p>
+                        <p>0.7</p>
+                        <p>2.7</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/appic.webp"></p>
+                        <p>30</p>
+                        <p>8.2</p>
+                        <p>4.9</p>
+                        <p>1.4</p>
+                        <p>0.9</p>
+                        <p>0.5</p>
+                        <p>2</p>
+                        <p>21.3</p>
+                        <p>46.9</p>
+                        <p>40</p>
+                        <p>78.9</p>
+                        <p>0.9</p>
+                        <p>4</p>
+                        <p>0.6</p>
+                        <p>1.3</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/gp2pic.webp"></p>
+                        <p>34</p>
+                        <p>7.7</p>
+                        <p>3.4</p>
+                        <p>0.8</p>
+                        <p>1.2</p>
+                        <p>0.2</p>
+                        <p>5</p>
+                        <p>16.2</p>
+                        <p>63.5</p>
+                        <p>41.9</p>
+                        <p>59</p>
+                        <p>1.1</p>
+                        <p>2.3</p>
+                        <p>0.5</p>
+                        <p>1.6</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/nbpic.webp"></p>
+                        <p>35</p>
+                        <p>6.7</p>
+                        <p>4</p>
+                        <p>1.6</p>
+                        <p>0.6</p>
+                        <p>0.3</p>
+                        <p>0</p>
+                        <p>15.1</p>
+                        <p>45.7</p>
+                        <p>39.1</p>
+                        <p>67.4</p>
+                        <p>0.9</p>
+                        <p>3.1</p>
+                        <p>1.1</p>
+                        <p>1.6</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/aipic.webp"></p>
+                        <p>18</p>
+                        <p>4.7</p>
+                        <p>3.6</p>
+                        <p>4.1</p>
+                        <p>0.7</p>
+                        <p>0.7</p>
+                        <p>0</p>
+                        <p>20.6</p>
+                        <p>42.7</p>
+                        <p>23.9</p>
+                        <p>75</p>
+                        <p>0.8</p>
+                        <p>2.8</p>
+                        <p>0.7</p>
+                        <p>0.8</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/jtapic.webp"></p>
+                        <p>33</p>
+                        <p>4.9</p>
+                        <p>3</p>
+                        <p>2.2</p>
+                        <p>0.7</p>
+                        <p>0.4</p>
+                        <p>3</p>
+                        <p>16.7</p>
+                        <p>50.8</p>
+                        <p>25.6</p>
+                        <p>59.5</p>
+                        <p>0.6</p>
+                        <p>2.3</p>
+                        <p>1.2</p>
+                        <p>1.6</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/dlpic.webp"></p>
+                        <p>25</p>
+                        <p>8.4</p>
+                        <p>3.1</p>
+                        <p>1</p>
+                        <p>0.4</p>
+                        <p>0.1</p>
+                        <p>2</p>
+                        <p>20.8</p>
+                        <p>43.8</p>
+                        <p>34.9</p>
+                        <p>87.1</p>
+                        <p>0.3</p>
+                        <p>2.8</p>
+                        <p>0.6</p>
+                        <p>1.6</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/jkpic.webp"></p>
+                        <p>25</p>
+                        <p>4.8</p>
+                        <p>1.5</p>
+                        <p>0.3</p>
+                        <p>0.4</p>
+                        <p>0.1</p>
+                        <p>2</p>
+                        <p>9.2</p>
+                        <p>49.4</p>
+                        <p>29</p>
+                        <p>56.4</p>
+                        <p>0.3</p>
+                        <p>1.2</p>
+                        <p>0.6</p>
+                        <p>1.1</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/mmpic.webp"></p>
+                        <p>22</p>
+                        <p>1.8</p>
+                        <p>0.9</p>
+                        <p>0.3</p>
+                        <p>0.1</p>
+                        <p>0.2</p>
+                        <p>1</p>
+                        <p>6.5</p>
+                        <p>33.3</p>
+                        <p>14.8</p>
+                        <p>57.1</p>
+                        <p>0.1</p>
+                        <p>0.8</p>
+                        <p>0.2</p>
+                        <p>0.5</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/cqpic.webp"></p>
+                        <p>17</p>
+                        <p>2.4</p>
+                        <p>1.4</p>
+                        <p>1.8</p>
+                        <p>0.5</p>
+                        <p>0</p>
+                        <p>1</p>
+                        <p>12.1</p>
+                        <p>28</p>
+                        <p>34.4</p>
+                        <p>100</p>
+                        <p>0.5</p>
+                        <p>0.9</p>
+                        <p>1</p>
+                        <p>1.2</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/jdpic.webp"></p>
+                        <p>4</p>
+                        <p>1.5</p>
+                        <p>1.8</p>
+                        <p>0.8</p>
+                        <p>0</p>
+                        <p>0.3</p>
+                        <p>0</p>
+                        <p>6.9</p>
+                        <p>50</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0.3</p>
+                        <p>1.5</p>
+                        <p>0.3</p>
+                        <p>0.5</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/kwpic.webp"></p>
+                        <p>1</p>
+                        <p>6</p>
+                        <p>1</p>
+                        <p>0</p>
+                        <p>1</p>
+                        <p>1</p>
+                        <p>0</p>
+                        <p>13.9</p>
+                        <p>100</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>1</p>
+                        <p>1</p>
+                        <p>4</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/ktpic.webp"></p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                    </div>
+                    <div class="row d-flex player-info-p">
+                        <p><img src="images/jwpic.webp"></p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 返回顶部 -->
+    <div class="rocket"></div>
+    <footer class="footer mt-3">
+        <div class="mod_help container">
+            <div class="row">
+                <dl class="col-6 col-md-2">
+                    <dt>关于</dt>
+                    <dd><a href="#">门票</a></dd>
+                    <dd><a href="#">季票</a></dd>
+                    <dd><a href="#">团体票</a></dd>
+                    <dd><a href="#">单场比赛门票</a></dd>
+                    <dd><a href="#">所有门票选项</a></dd>
+                </dl>
+                <dl class="col-6 col-md-2">
+                    <dt>团队</dt>
+                    <dd><a href="#">名册</a></dd>
+                    <dd><a href="#">球员数据</a></dd>
+                    <dd><a href="#">团队数据</a></dd>
+                    <dd><a href="#">媒体指南</a></dd>
+                    <dd><a href="#">圣克鲁兹勇士队</a></dd>
+                </dl>
+                <dl class="col-6 col-md-2">
+                    <dt>大通中心</dt>
+                    <dd><a href="#">座位图</a></dd>
+                    <dd><a href="#">路线</a></dd>
+                    <dd><a href="#">交通指南</a></dd>
+                    <dd><a href="#">供应商多元化计划</a></dd>
+                </dl>
+                <dl class="col-6 col-md-2">
+                    <dt>保持联系</dt>
+                    <dd><a href="#">社交媒体</a></dd>
+                    <dd><a href="#">获取移动应用</a></dd>
+                    <dd><a href="#">内幕电邮</a></dd>
+                    <dd><a href="#">中文</a></dd>
+                </dl>
+                <dl class="col-6 col-md-2">
+                    <dt>专题</dt>
+                    <dd><a href="#">休赛季的转会</a></dd>
+                    <dd><a href="#">联盟的骄傲</a></dd>
+                    <dd><a href="#">新春贺岁</a></dd>
+                    <dd><a href="#">扣响盛夏</a></dd>
+                </dl>
+                <dl class="col-6 col-md-2">
+                    <dt>手机看比赛 下载APP</dt>
+                    <dd>
+                        <img src="images/download.jpg" alt="" style="width: 90px;height: 90px;">
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="mod_copyright">
+            <div class="copyright container-fluid">
+                <img src="images/min-gsw-logo.png" alt="">
+                <p>金州勇士队
+                    | 1 Warriors Way, San Francisco, CA 94158。电话 (415) 388-0100</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery and JavaScript Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
