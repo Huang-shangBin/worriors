@@ -1,0 +1,183 @@
+body {
+    background-color: #f4f4f4 !important;
+}
+
+li {
+    display: block;
+}
+
+button{
+    outline:none;  
+}
+
+img {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.imgSize {
+    width: 48px;
+    height: 48px;
+}
+
+.def-color {
+    color: #1d428a;
+}
+
+.shadow {
+    box-shadow:0 3px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.border-clear {
+    border: 0 !important;
+}
+
+.originColor {
+    color: #1d428a !important;
+}
+
+.shadow-some {
+    box-shadow: 0 3px 12px 0 rgb(0 0 0 / 10%);;
+}
+
+.nav-item a {
+    font-size: 16px;
+}
+
+#navbar {
+    box-shadow: 0 1px 10px #fec400;
+}
+
+.inputBar {
+    width: 187px;
+    height: 100%;
+    border: none;
+    margin: 0 0 0 12px;
+    background: transparent;
+    color: #fff;
+    font-style: italic;
+    opacity: .5;
+    border-radius: 16px;
+    border: 1px solid #fff;
+}
+
+.inputBar-btn {
+    color: #ffc72c;
+}
+
+.searchBar_searchSubmitBtn__3IxmH {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin: 0 15px 0 0;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #1d428a!important;
+}
+
+.active {
+    border-bottom: 3px solid #fec400;
+}
+
+.nav-list li {
+    margin-left: 10px;
+}
+
+.nav-list li:hover {
+    border-bottom: 3px solid #fec400;
+}
+
+.imghover {
+    transition: all .3s;
+}
+
+.imghover:hover {
+    transform: scale(1.1);
+}
+
+.rocket {
+    width: 130px;
+    height: 155px;
+    background: url(../images/rocket_top.png) top;
+    background-size: cover;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    display: none;
+    cursor: pointer;
+  }
+
+  .rocket:hover {
+    background-position: bottom;
+  }
+
+
+.footer {
+    padding: 30px 0;
+    /* height: 415px; */
+    background-color: #1d428a;
+}
+
+.mod_help {
+    /* height: 235px; */
+    /* padding-top: 20px;
+    padding-left: 50px; */
+    padding: 20px 0 0 50px;
+}
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+.mod_help dl:last-child {
+    width: 90px;
+    /* text-align: center; */
+}
+.mod_help dl dt {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 14px;
+}
+.mod_help dl dd a {
+    font-size: 13px;
+    color: #ccc;
+    /* font-weight: normal;
+    padding-bottom: 14px; */
+}
+.mod_copyright {
+    text-align: center;
+}
+.links {
+    margin-left: 117px;
+}
+.links ul li {
+    margin: 20px 0 14px;
+    float: left;
+}
+.mod_copyright .links ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    margin: 24px 15px 0;
+    /* 给li宽高和背景颜色能让该li呈线显示 */
+    background-color: #666666;
+}
+.copyright {
+    /* margin: 10px 0; */
+    padding: 10px 0;
+    display: inline-block;
+    line-height: 20px;
+    background-color: #385998;
+}
+.copyright p {
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+    font-size: 15px;
+    color: #ccc;
+}

@@ -1,0 +1,70 @@
+.pIndent {
+    text-indent: 2em;
+}
+
+.border-b {
+    border-bottom: 6px solid #ffc72c;
+}
+
+.clearpadding-left {
+    padding-left: 0 !important;
+}
+
+.navbar-dark .navbar-nav .active>.navbar-link,
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link.show,
+.navbar-dark .navbar-nav .show>.navbar-link {
+    color: #fff;
+    border-bottom: 3px solid red;
+}
+
+.colorNone {
+    background-color: transparent !important;
+    border: none;
+}
+
+.titlePic {
+    justify-content: center;
+}
+
+.inputWidth {
+    width: 100px;
+}
+
+.emailPicCenter {
+    justify-content: center;
+}
+
+.emailPic {
+    width: 308px;
+    height: 80px;
+}
+
+.blog {
+    align-items: center;
+}
+
+.titleBlog {
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.more-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc600;
+}
+
+.more-btn font {
+    margin-left: 5px;
+    font-size: 12px;
+    color:#000;
+    vertical-align: middle;
+}
+
+.more-btn:hover {
+    opacity: .8;
+}

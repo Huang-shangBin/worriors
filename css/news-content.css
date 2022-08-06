@@ -1,0 +1,60 @@
+li {
+    display: block;
+}
+
+.news-title a {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    line-height: 50px;
+}
+
+.leftbox h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.article-time {
+    border-bottom: 1px solid #ccc;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content h5 {
+    text-indent: 2em;
+}
+
+.content p {
+    box-sizing: border-box;
+    padding: 20px 0 0 0;
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+
+.hotBox {
+    padding: 10px;
+}
+
+.hotBox li {
+    box-sizing: border-box;
+    cursor: pointer;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.hotBox p {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.hotBox img {
+    width: 115px;
+    height: 60px;
+}
+
+.li-hover {
+    color: #2464b5;
+    background-color: #edf1f4;
+}

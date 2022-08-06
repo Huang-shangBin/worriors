@@ -1,0 +1,40 @@
+@media screen and (max-width:991px) {
+    .card_add_padding {
+        padding: 0 15px !important;
+    }
+
+    .titlePic img {
+        width: 400px;
+    }
+
+    .player-info-p {
+        /* height: 50px !important; */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .games-info-p {
+        /* height: 50px !important; */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .rocket {
+        display: none !important;
+    }
+
+    .btn-toggle,.databox {
+        display: none !important;
+    }
+
+    .infobox {
+        display: block !important;
+    }
+
+    .player-info-p p {
+        font-size: 13px;
+    }
+    
+}
